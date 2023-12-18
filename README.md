@@ -79,3 +79,15 @@ With parameter<br/>
 ```http
   DELETE localhost:8000/api/employee/{id_employee}
 ```
+
+## Information !!!
+Dockerfile still under development. You can test docker development with script 
+```
+docker build -t api .
+```
+Then run docker compose 
+```
+docker-compose up -d
+```
+If you have any question related to this project, feel free to contact me at my github <br/>
+[My Github Profile](https://github.com/ryanisml)
