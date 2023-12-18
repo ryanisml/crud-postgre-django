@@ -19,7 +19,7 @@ python manage.py createsuperuser
 Fill all data and migration will be completed.
 
 #### You can disable authentication by comment :
-`employee/api/router.py`
+`employee_api/router.py`
 ```
 # permission_classes = [permissions.IsAuthenticated]
 ```
